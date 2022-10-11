@@ -1,5 +1,7 @@
+
 html {
     box-sizing: border-box;
+
 }
 
 body {
@@ -9,49 +11,59 @@ body {
 }
 
 
-.img  {
-    max-height: 200px;
 
+
+.bg-img {
+    border: 1px solid red;
+
+    /* The image used */
+    background-image: url("background..jpg");
+
+    min-height: 600px;
+    max-width: 100%;
+
+    /* Center and scale the image nicely */
+
+    background-repeat: no-repeat;
+    bbackground-attachment: fixed;
+    background-position: center;
+
+    /* Needed to position the navbar */
+    position: relative;
 }
 
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
 
-
-
-.menus ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+/* The navbar */
+.topnav {
     overflow: hidden;
-    background-color: #845200;
+    background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
     text-align: center;
-
-
-}
-
-li {
-
-    display: inline-block;
-/* float: left; */
-}
-
-li a {
-    display: block;
-    color: white;
-    width: 100px;
-    padding: 25px 20px;
-    font-size: 15px;
+    padding: 14px 16px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+    font-size: 17px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: darkgrey;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
+
+
+
+
 
 .h1 {
     text-align: center;
 }
-
