@@ -4,33 +4,54 @@ html {
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+
+
+.img  {
+    max-height: 200px;
+
+}
+
+
+
 
 .menus ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #666;
+    background-color: #845200;
+    text-align: center;
+
 
 }
 
 li {
-    border: 2px solid red;
-    float: left;
+
+    display: inline-block;
+/* float: left; */
 }
 
 li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    width: 100px;
+    padding: 25px 20px;
+    font-size: 15px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: darkgrey;
 }
 
+.h1 {
+    text-align: center;
 }
+
